@@ -1,0 +1,8 @@
+name             'jenkins'
+maintainer       'Chris Socha'
+maintainer_email 'test@test.com'
+license          'All rights reserved'
+description      'Installs/Configures jenkins'
+long_description 'Installs/Configures jenkins'
+version          '0.1.0'
+depends          'yum'
