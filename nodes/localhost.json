@@ -1,0 +1,8 @@
+{
+  "run_list": [
+    "recipe[java]"
+  ],
+  "automatic": {
+    "ipaddress": "localhost"
+  }
+}
