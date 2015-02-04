@@ -14,8 +14,10 @@ yum_repository 'jenkins' do
   action :create
 end
 
-yum_package 'jenkins'
-
 service "jenkins" do
-  action :restart
+  supports :restart => true
+end
+
+yum_package 'jenkins' do
+  notifies :restart, "service[jenkins]"
 end
