@@ -1,6 +1,6 @@
 # Chef provisioning test
 
-Based off [Cooking Infrastructure by Chef](http://chef.leopard.in.ua/html/#rubygems-and-bundler)
+Based off [Cooking Infrastructure by Chef](http://chef.leopard.in.ua/html)
 
 ```
 berks vendor cookbooks
